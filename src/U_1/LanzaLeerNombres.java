@@ -7,10 +7,10 @@ import java.io.InputStream;
 public class LanzaLeerNombres {
     public static void main(String[] args) throws IOException {
         // Usa barras simples en la ruta
-        File directorio = new File("C:/Users/aludam2/IdeaProjects/Programacion_Servicios_y_procesos");
+        File directorio = new File("C:\\Users\\aludam2\\IdeaProjects\\Programacion_Servicios_y_procesos\\out\\production\\Programacion_Servicios_y_procesos\\U_1");
 
         // Asegúrate de que la ruta del proyecto y la clase sean correctas
-        Process p = new ProcessBuilder("java", "-cp", "C:/Users/aludam2/IdeaProjects/Programacion_Servicios_y_procesos", "U_1.LeerNombre", "Agustin")
+        Process p = new ProcessBuilder("java", "-cp", "C:\\Users\\aludam2\\IdeaProjects\\Programacion_Servicios_y_procesos\\out\\production\\Programacion_Servicios_y_procesos\\U_1", "LeerNombre", "Agustin")
                 .directory(directorio)
                 .start();
 
