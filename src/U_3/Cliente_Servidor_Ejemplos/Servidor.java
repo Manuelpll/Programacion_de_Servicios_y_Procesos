@@ -1,4 +1,4 @@
-package U_3;
+package U_3.Cliente_Servidor_Ejemplos;
 
 import java.io.BufferedReader;
 import java.io.IOException;

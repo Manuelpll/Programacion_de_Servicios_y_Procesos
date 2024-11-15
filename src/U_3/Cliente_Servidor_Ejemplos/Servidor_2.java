@@ -1,4 +1,4 @@
-package U_3;
+package U_3.Cliente_Servidor_Ejemplos;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Servidor3 {
+public class Servidor_2 {
     // Lista de clientes conectados
     private static List<ClienteHandler> clientes = new ArrayList<>();
 
