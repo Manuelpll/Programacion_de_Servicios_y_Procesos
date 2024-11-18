@@ -26,7 +26,7 @@ public class Servidor_Final {
                         } else if (comando.length() <= MAX_LONGITUD_MENSAJE) {
                             enviarATodos("Servidor: " + comando);
                         } else {
-                            System.out.println("Error: El mensaje del servidor supera los 70 caracteres.");
+                            System.out.println("Error: El mensaje del servidor supera los 200 caracteres.");
                         }
                     }
                 } catch (IOException e) {
@@ -184,7 +184,7 @@ public class Servidor_Final {
                         System.out.println(color + nombreCliente + ANSI_RESET + ": " + mensaje);
                         enviarATodos(color + nombreCliente + ANSI_RESET + ": " + mensaje);
                     } else {
-                        enviarMensaje("Error: El mensaje supera los 70 caracteres. Inténtalo de nuevo.");
+                        enviarMensaje("Error: El mensaje supera los 200 caracteres. Inténtalo de nuevo.");
                     }
                 }
             } catch (IOException e) {

@@ -15,7 +15,7 @@ public class Servidor {
 
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(1234)) {
-            System.out.println("Servidor2 iniciado y esperando conexiones...");
+            System.out.println("Servidor iniciado y esperando conexiones...");
 
             // Aceptar múltiples conexiones de clientes en un bucle
             while (true) {
