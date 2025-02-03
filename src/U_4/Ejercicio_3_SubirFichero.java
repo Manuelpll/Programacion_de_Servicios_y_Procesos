@@ -3,7 +3,7 @@ package U_4;
 import java.io.*;
 import org.apache.commons.net.ftp.*;
 
-public class SubirFichero {
+public class Ejercicio_3_SubirFichero {
 	  public static void main(String[] args) {
 		FTPClient clienteFTP = new FTPClient();
 
